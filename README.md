@@ -26,9 +26,9 @@ A pivot is considered "good" if it falls within the middle 50% of the sorted arr
 
 **Left-Most Element Approach**
 
-When selecting the leftmost element as pivot, since all permutations are equally likely, the probability of getting a good pivot is simply:
+Since we're choosing the leftmost element as our pivot element and all possible orderings of the array are equally probable, there's a 50% chance that our chosen pivot will partition the array into balanced segments.
 
-$\frac{1}{2}$ or 50%
+We can show this as $\frac{1}{2}$ or 50%
 
 **Median-of-Three Approach**
 
